@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E17A20A2A24E6D1009C69A6 /* InfoPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E17A2092A24E6D1009C69A6 /* InfoPanelView.swift */; };
 		4E6548E42A23631700CC3E24 /* PinchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6548E32A23631700CC3E24 /* PinchApp.swift */; };
 		4E6548E62A23631700CC3E24 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6548E52A23631700CC3E24 /* ContentView.swift */; };
 		4E6548E82A23631800CC3E24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E6548E72A23631800CC3E24 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4E17A2092A24E6D1009C69A6 /* InfoPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPanelView.swift; sourceTree = "<group>"; };
 		4E6548E02A23631700CC3E24 /* Pinch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pinch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E6548E32A23631700CC3E24 /* PinchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinchApp.swift; sourceTree = "<group>"; };
 		4E6548E52A23631700CC3E24 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -51,7 +53,6 @@
 		4E6548E22A23631700CC3E24 /* Pinch */ = {
 			isa = PBXGroup;
 			children = (
-				4E82A50F2A2368510056E064 /* New Group1 */,
 				4E82A50E2A2368480056E064 /* View */,
 				4E82A50D2A23683F0056E064 /* Model */,
 				4E82A50C2A2368350056E064 /* Data */,
@@ -88,15 +89,9 @@
 		4E82A50E2A2368480056E064 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				4E17A2092A24E6D1009C69A6 /* InfoPanelView.swift */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		4E82A50F2A2368510056E064 /* New Group1 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "New Group1";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,6 +166,7 @@
 			files = (
 				4E6548E62A23631700CC3E24 /* ContentView.swift in Sources */,
 				4E6548E42A23631700CC3E24 /* PinchApp.swift in Sources */,
+				4E17A20A2A24E6D1009C69A6 /* InfoPanelView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
