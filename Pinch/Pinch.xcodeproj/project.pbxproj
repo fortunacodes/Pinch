@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4E17A20A2A24E6D1009C69A6 /* InfoPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E17A2092A24E6D1009C69A6 /* InfoPanelView.swift */; };
+		4E17A20C2A24F09C009C69A6 /* ControlImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E17A20B2A24F09C009C69A6 /* ControlImageView.swift */; };
 		4E6548E42A23631700CC3E24 /* PinchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6548E32A23631700CC3E24 /* PinchApp.swift */; };
 		4E6548E62A23631700CC3E24 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6548E52A23631700CC3E24 /* ContentView.swift */; };
 		4E6548E82A23631800CC3E24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E6548E72A23631800CC3E24 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 
 /* Begin PBXFileReference section */
 		4E17A2092A24E6D1009C69A6 /* InfoPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPanelView.swift; sourceTree = "<group>"; };
+		4E17A20B2A24F09C009C69A6 /* ControlImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlImageView.swift; sourceTree = "<group>"; };
 		4E6548E02A23631700CC3E24 /* Pinch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pinch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E6548E32A23631700CC3E24 /* PinchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinchApp.swift; sourceTree = "<group>"; };
 		4E6548E52A23631700CC3E24 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				4E17A2092A24E6D1009C69A6 /* InfoPanelView.swift */,
+				4E17A20B2A24F09C009C69A6 /* ControlImageView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -164,6 +167,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E17A20C2A24F09C009C69A6 /* ControlImageView.swift in Sources */,
 				4E6548E62A23631700CC3E24 /* ContentView.swift in Sources */,
 				4E6548E42A23631700CC3E24 /* PinchApp.swift in Sources */,
 				4E17A20A2A24E6D1009C69A6 /* InfoPanelView.swift in Sources */,
